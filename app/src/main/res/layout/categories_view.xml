@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="@dimen/categories_view_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/content_space"
+        android:layout_marginLeft="@dimen/categories_view_title_space"
+        android:layout_marginTop="@dimen/content_space"
+        android:paddingBottom="@dimen/categories_view_title_space"
+        android:text="@string/categories_view_title"
+
+        android:textAppearance="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listView_context_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginBottom="@dimen/categories_view_card_content_space"
+        android:layout_marginLeft="@dimen/activity_new_complaint_padding_content"
+        android:layout_marginRight="@dimen/activity_new_complaint_padding_content"
+        tools:ignore="ObsoleteLayoutParam">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

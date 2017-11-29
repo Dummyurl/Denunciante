@@ -1,0 +1,99 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">260dp</dimen>
+    <dimen name="nav_header_avatar">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="content_space">6dp</dimen>
+    <dimen name="padding_layout">12dp</dimen>
+    <dimen name="elevation_views">4dp</dimen>
+    <dimen name="height_Image_complaint">230dp</dimen>
+
+    <!--card_view-->
+
+    <dimen name="card_view_content_space">12dp</dimen>
+    <dimen name="card_view_image_on_card">50dp</dimen>
+    <dimen name="card_view_picture_on_card">280dp</dimen>
+    <dimen name="card_view_content_space_in_card">6dp</dimen>
+    <dimen name="card_view_category_size_on_card">14sp</dimen>
+    <dimen name="card_view_name_size_on_card">15sp</dimen>
+    <dimen name="card_view_content_padding">1dp</dimen>
+    <dimen name="height_more_image_button">30dp</dimen>
+    <dimen name="card_view_padding_left_more_image_button">8dp</dimen>
+    <dimen name="card_view_padding_right_more_image_button">8dp</dimen>
+
+    <!--activity_new_complaint-->
+    <dimen name="activity_new_complaint_padding_content">12dp</dimen>
+    <dimen name="activity_new_complaint_button_publish_width">100dp</dimen>
+
+
+    <!--activity_main-->
+    <dimen name="activity_main_floating_margin">25dp</dimen>
+    <dimen name="activity_main_border_content">6dp</dimen>
+
+    <!--activity_details_complaint-->
+
+    <dimen name="activity_details_complaint_icon_category">25dp</dimen>
+    <dimen name="activity_details_complaint_height_image_complaint">240dp</dimen>
+    <dimen name="activity_details_complaint_size_avatar">96dp</dimen>
+    <dimen name="activity_details_complaint_margin_profile_image">8dp</dimen>
+    <dimen name="activity_details_complaint_height_image">250dp</dimen>
+    <dimen name="activity_details_complaint_margin_top_avatar">195dp</dimen>
+    <dimen name="activity_details_complaint_border_width">2dp</dimen>
+    <dimen name="activity_details_complaint_mapView_size">200dp</dimen>
+    <dimen name="activity_details_complaint_text_size">16sp</dimen>
+
+    <!--activity_sing_in-->
+
+    <dimen name="activity_sing_in_space_image">20dp</dimen>
+    <dimen name="activity_sing_space_layout">530dp</dimen>
+    <dimen name="activity_sing_size_button">150dp</dimen>
+    <dimen name="activity_sing_in_size_image">140dp</dimen>
+    <dimen name="activity_sing_in_margin_horizontal_editText">30dp</dimen>
+    <dimen name="activity_sing_in_margin_top">10dp</dimen>
+    <dimen name="activity_sing_in_size_title">20sp</dimen>
+    <dimen name="activity_sing_in_margin_bottom_gif">70dp</dimen>
+    <dimen name="activity_sing_in_margin_top_gif">10dp</dimen>
+    <dimen name="activity_sing_in_margin_bottom_editText">70dp</dimen>
+    <dimen name="activity_sing_in_margin_top_button">180dp</dimen>
+    <dimen name="activity_sing_in_width_button">250dp</dimen>
+    <dimen name="activity_sing_in_margin_card">65dp</dimen>
+    <dimen name="activity_sing_in_corner">10dp</dimen>
+
+    <!--layout category_item-->
+    <dimen name="category_item_space">10dp</dimen>
+    <dimen name="category_item_size_icon">30dp</dimen>
+
+    <!--categories_view-->
+    <dimen name="categories_view_width">270dp</dimen>
+    <dimen name="categories_view_title_space">15dp</dimen>
+    <dimen name="categories_view_card_content_space">20dp</dimen>
+
+    <!--category_post-->
+    <dimen name="category_post_width">270dp</dimen>
+    <dimen name="category_post_title_space">15dp</dimen>
+    <dimen name="category_post_content_margin">12dp</dimen>
+
+
+    <!--activity_sign_up-->
+    <dimen name="activity_sign_up_space_image">5dp</dimen>
+    <dimen name="activity_sign_up_size_image">120dp</dimen>
+    <dimen name="activity_sign_up_margin_top_card">130dp</dimen>
+    <dimen name="activity_sign_up_margin_top_button">130dp</dimen>
+    <dimen name="activity_sign_up_margin_height_card">370dp</dimen>
+    <dimen name="activity_sign_up_margin_horizontal_editText">30dp</dimen>
+    <dimen name="activity_sign_up_margin_bottom_editText">70dp</dimen>
+    <dimen name="activity_sign_up_button_width">250dp</dimen>
+
+    <!--layout without connection-->
+
+    <dimen name="without_connection_size_image">230dp</dimen>
+    <dimen name="without_connection_title_message_width">300dp</dimen>
+    <dimen name="without_connection_message_top_margin">25dp</dimen>
+    <dimen name="activity_sign_in_progress_bar_height">30dp</dimen>
+    <dimen name="height_view_pager">250dp</dimen>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="adapter-progress-0.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/6557b26e89cfc7f2ef37f09d137fceb14a047d39/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/6557b26e89cfc7f2ef37f09d137fceb14a047d39/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.chocoyo.labs/adapter-progress/0.0.2/b0629b5e399f98758cbb6a3f990c4965c3118f0b/adapter-progress-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

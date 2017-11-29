@@ -1,0 +1,111 @@
+<resources>
+    <!--activity_splash-->
+    <string name="title_splash">Denunciante</string>
+    <string name="subtitle_splash">© SOFTCORP</string>
+
+    <string name="app_name">Denunciante</string>
+    <string name="title_activity_login">Inicio de Sesión</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="key_access_token">access_token</string>
+
+    <!--activity_main-->
+    <string name="activity_main_drawer_complaints">Denuncias</string>
+    <string name="activity_main_drawer_my_complaints">Mis denuncias</string>
+    <string name="activity_main_drawer_log_out">Cerrar Sesión</string>
+    <string name="activity_main_nav_header_default_name">Nombre Usuario</string>
+    <string name="activity_main_nav_header_default_email">Correo</string>
+    <string name="activity_main_title_search">Search</string>
+    <!--activity_details_complaints-->
+    <string name="activity_details_complaints_title_description">Descripción</string>
+    <string name="activity_details_complaints_title_category">Categoría</string>
+    <string name="activity_details_complaints_title_map">Ubicación de la denuncia</string>
+
+    <!--activity_new_complaint-->
+    <string name="activity_new_complaint_title">Titulo</string>
+    <string name="activity_new_complaint_description">Descripción</string>
+    <string name="activity_new_complaint__message_empty_title">Debe definir un titulo</string>
+    <string name="activity_new_complaint_message_empty_description">Debe definir una descripción</string>
+    <string name="activity_new_complaint_hint_complaint">Ingrese su denuncia</string>
+    <string name="activity_new_complaint_to_post">Publicar</string>
+    <string name="activity_new_complaint_set_location">Elejir ubicación</string>
+    <string name="activity_new_complaint_empty_location">Primero elija la ubicación</string>
+
+    <string name="activity_new_complaint_complete_select_images">Finalizar</string>
+    <string name="activity_new_complaint_not_select_images">Debe de selecionar almenos una imagen</string>
+    <string name="activity_new_complaint_empty_select_images">Sin fotos</string>
+    <string name="activity_new_complaint_starting_publication">Publicando denuncia</string>
+
+    <string name="activity_new_complaint_sending_message">Publicando, %1$d de %2$d imagenes.</string>
+    <string name="activity_new_complaint_message_cancel">Publicación de la nueva denuncia cancelada</string>
+    <string name="activity_new_complaint_route_image">images/%1$s.jpg"</string>
+    <string name="activity_new_complaint_title_cancel">Cancelar</string>
+    <string name="activity_new_complaint_title_dialog">Publicando</string>
+    <string name="activity_new_complaint_message_empty_image">Error: al cargar la imagen</string>
+
+    <!--activity_sing_in-->
+    <string name="activity_sing_in_email">Correo electrónico</string>
+    <string name="activity_sing_in_question">¿No tienes cuenta?</string>
+    <string name="activity_sing_in_password">Contraseña</string>
+    <string name="activity_sing_in_sign_up">REGISTRAME</string>
+    <string name="activity_sing_in_button_title">ENTRAR</string>
+    <string name="activity_sing_in_message_empty_email">No ha definido un correo</string>
+    <string name="activity_sing_in_message_empty_password">No ha definido su contraseña</string>
+    <string name="one_hour_ago">Hace 1 hora</string>
+    <string name="activity_sing_in_title">LOGIN</string>
+
+    <!--categories_view-->
+    <string name="categories_view_title">Categorías</string>
+
+    <!--category_post-->
+    <string name="category_post_title">Publicando</string>
+
+    <!--Error messages of application-->
+
+    <string name="without_permits">Si rechaza el permiso, no puede usar este servicio</string>
+    <string name="error_publishing_complaint">No se publicó la denuncia</string>
+    <string name="error_message">ERROR</string>
+
+    <!--Error message in ComplaintAdapter-->
+    <string name="complaint_adapter_error_message">ERROR TRY CATCH</string>
+
+    <!--Message application-->
+    <string name="message_delete_complaint">ELIMINADA</string>
+    <string name="message_without_connection">Error, sin conexión a internet</string>
+
+    <!--activity_sign_up-->
+    <string name="activity_sign_up_name">Nombre completo</string>
+    <string name="activity_sign_up_username">Nombre de usuario</string>
+    <string name="activity_sign_up_email">Correo electrónico</string>
+    <string name="activity_sign_up_password">Contraseña</string>
+    <string name="activity_sing_up_empty_fields_message">Todos los campos son requeridos.</string>
+
+    <string name="activity_sign_up_back_button">Regresar</string>
+    <string name="activity_sign_up_sign_up_button">Registrarme</string>
+
+    <!--activity_map-->
+    <string name="title_activity_maps">Mapa</string>
+
+    <string name="without_connection_message">Revise su conexión a internet e intente nuevamente</string>
+    <string name="title_activity_mape">Map</string>
+    <string name="title_activity_mm">Map</string>
+    <string name="title_activity_ee">Map</string>
+    <string name="title_activity_maps123">Map</string>
+
+    <!--fragment_my_complaints-->
+    <string name="more_button_complaint_card_view">Ver más</string>
+    <string name="delete_confirmation_title">¿Desea eliminar la denuncia?</string>
+    <string name="delete_confirmation_description">Tenga en cuenta que esta acción no se puede deshacer.</string>
+    <string name="delete_complaint_option_popup">Eliminar</string>
+    <string name="positive_option_alert_dialog">Sí</string>
+    <string name="negative_option_alert_dialog">No</string>
+    <string name="search_view_hint">Escribe para buscar denuncias</string>
+    <string name="content_description_image_view_viewpager">Foto(s) de la(s) denuncia(s)</string>
+
+    <!--activity_profile-->
+    <string name="diagonallayout_description">Hugh Michael Jackman is an Australian actor, singer and producer. Jackman has won international recognition for playing different roles in various film genres. \n\nHe is best known for his long-running role as Wolverine in the X-Men film series, as well as for his lead roles in the romantic-comedy fantasy Kate &amp; Leopold (2001), the action-horror film Van Helsing (2004)...</string>
+
+
+
+</resources>

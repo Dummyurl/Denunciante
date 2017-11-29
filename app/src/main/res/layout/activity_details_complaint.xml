@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uca.apps.isi.taken.activities.NewComplaintActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/imageComplaint"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_details_complaint_height_image_complaint"
+                android:background="@color/placeHolderImage"
+                app:backgroundImage="@drawable/ic_default_image"
+                tools:ignore="MissingConstraints"
+                tools:targetApi="lollipop" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_details_complaint_margin_top_avatar"
+                android:elevation="@dimen/elevation_views"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:targetApi="lollipop">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/activity_details_complaint_size_avatar"
+                    android:layout_height="@dimen/activity_details_complaint_size_avatar"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile_image"
+                    app:civ_border_color="@color/colorWhite"
+                    app:civ_border_width="@dimen/activity_details_complaint_border_width"
+                    tools:ignore="MissingConstraints" />
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_layout"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/placeHolderImage"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_layout"
+                android:text="@string/activity_details_complaints_title_category"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_layout">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/iconCategory"
+                    android:layout_width="@dimen/activity_details_complaint_icon_category"
+                    android:layout_height="@dimen/activity_details_complaint_icon_category"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/content_space"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textSize="@dimen/activity_details_complaint_text_size"
+                    tools:ignore="MissingConstraints,RtlHardcoded" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_layout"
+            android:text="@string/activity_details_complaints_title_description"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_layout"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textSize="@dimen/activity_details_complaint_text_size"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_layout"
+            android:text="@string/activity_details_complaints_title_map"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mapComplaint"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_details_complaint_mapView_size"
+            android:layout_margin="@dimen/padding_layout"
+            tools:context="com.uca.apps.isi.taken.activities.NewComplaintActivity" />
+    </LinearLayout>
+
+</ScrollView>
+

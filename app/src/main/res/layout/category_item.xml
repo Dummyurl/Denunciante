@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/category_item_space"
+    android:paddingLeft="@dimen/category_item_space"
+    android:paddingTop="@dimen/category_item_space" >
+
+    <LinearLayout
+        android:id="@+id/itemMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iconCategory"
+            android:layout_width="@dimen/category_item_size_icon"
+            android:layout_height="@dimen/category_item_size_icon"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/categoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/category_item_space"
+            android:layout_toRightOf="@+id/imageView_menu" />
+    </LinearLayout>
+</RelativeLayout>

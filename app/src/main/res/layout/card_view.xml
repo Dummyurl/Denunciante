@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:cardCornerRadius="@dimen/activity_details_complaint_border_width"
+        app:cardElevation="@dimen/elevation_views"
+        app:cardMaxElevation="@dimen/elevation_views"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/card_view_content_space">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/pictureCard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_view_picture_on_card"
+                app:placeholderImage="@color/placeHolderImage" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="@dimen/content_space"
+                android:layout_marginTop="@dimen/content_space"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/content_space"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/card_view_image_on_card"
+                    android:layout_height="@dimen/card_view_image_on_card"
+                    android:layout_marginTop="@dimen/content_space"
+                    android:src="@drawable/profile_image"
+                    app:civ_border_color="@color/placeHolderImage"
+                    app:civ_border_width="@dimen/activity_details_complaint_border_width" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_space"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/content_space"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                        tools:ignore="RtlHardcoded" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/content_space"
+                        android:text="@string/one_hour_ago"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        tools:ignore="RtlHardcoded" />
+
+
+                    <ImageButton
+                        android:id="@+id/moreImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/height_more_image_button"
+                        android:src="@drawable/ic_more"
+                        android:paddingLeft="@dimen/card_view_padding_left_more_image_button"
+                        android:paddingRight="@dimen/card_view_padding_right_more_image_button"
+                        android:paddingStart="@dimen/card_view_padding_left_more_image_button"
+                        android:paddingEnd="@dimen/card_view_padding_right_more_image_button"
+                        android:layout_gravity="end"
+                        android:visibility="gone"
+                        android:background="@null"
+                        android:contentDescription="@string/more_button_complaint_card_view" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
